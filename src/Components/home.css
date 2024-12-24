@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.front-image img{
+  margin-left: 120px;
+  margin-top: 30px;
+  width: 80vw;
+}
+h1 {
+text-align: center;
+margin-top: 60px;
+}
+.recipes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  
+  gap: 46px;
+  justify-content: center;
+  padding: 8vh 0;
+}
+
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid rgb(183, 183, 183);
+  border-radius: 8px;
+  background-color: aliceblue;
+  color: black;
+  transition: all 1s ease-in-out;
+ }
+
+ .recipe-card:hover{
+   transform:scale(1.1) ;
+  background-color: rgb(208, 208, 209);
+ }
+
+.recipe-card img {
+  width: 90%;
+  height: 30vh;
+  border-radius: 8px;
+ margin-top: 10px;
+ padding-left: 10px;
+
+}
+
+.recipe-name {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.recipe-review-count,
+.recipe-rating {
+  font-size: 14px;
+}
+
+.recipes-container1 {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  
+ 
+  justify-content: center;
+  padding: 8vh 0;
+}
+
+
+.recipe-card1 img {
+  width: 139%;
+    height: 70%;
+    margin-top: -12px;
+    margin-left: -65px;
+  
+   
+ 
+}
+
+.recipe-card1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  color: black;
+  transition: all 1s ease-in-out;
+  padding-left: 80px;
+  width: 90%;
+  height: 84%;
+  
+}
+.recipe-name1 {
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 20px;
+ margin-left: -60px;
+}
+
+.recipe-card1:hover{
+   transform:scale(1.1) ;
+  background-color: rgb(208, 208, 209);
+ }
+
+ .recipes-container1 button{
+  font-size: 20px;
+  height: 8vh;
+  width: 13vw;
+  margin-left: 400px;
+ }
+
+
+ .recipes-container2{
+  display: grid;
+  grid-template-columns: repeat(6, 170px);
+
+  justify-content: center;
+  padding: 8vh 0;
+}
+
+.recipe-card2 img{
+ width:90%;
+    height:75%;
+    margin-top: -12px;
+   
+    border-radius: 100%;
+}
+
+.recipe-name2 {
+  font-weight: 700;
+  font-size: 17px;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.recipe-card2:hover{
+   transform:scale(1.1) ;
+ 
+ }
+
+.middle-image img{
+  width: 100%;
+}
+
+.button-container button{
+  margin-left:550px;
+  height: 6vh;
+  width: 10vw;
+  font-size: 20px;
+}
+
+.button-container p{
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}

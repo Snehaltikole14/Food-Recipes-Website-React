@@ -1,0 +1,60 @@
+.footer {
+  margin-top: 200px;
+  background-color: gainsboro;
+  height: 60vh;
+  width: 100%;
+}
+
+.footer h3 {
+  font-family: "Brush Script MT", cursive;
+  margin-left: 100px;
+  padding-top: 60px;
+  font-size: 40px;
+}
+
+.footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgb(95, 93, 93);
+}
+
+.middle-footer {
+  margin-left: 600px;
+  margin-top: -120px;
+}
+
+.middle-footer p {
+  margin-left: 1px;
+}
+
+.middle1-footer {
+  margin-left: 800px;
+  margin-top: -140px;
+}
+
+.middle1-footer p {
+  margin-left: 1px;
+}
+
+.end-footer {
+  margin-left: 1000px;
+  margin-top: -140px;
+}
+
+.end-footer p {
+  margin-left: 1px;
+}
+
+.copyright-footer{
+  border: 1px solid rgb(204, 203, 203);
+  width: 80%;
+  margin-top:60px ;
+  margin-left: 100px;
+}
+
+.footer-end p{
+  font-size: 14px;
+  padding-top: 30px;
+}

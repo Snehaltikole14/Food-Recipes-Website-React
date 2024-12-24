@@ -1,0 +1,65 @@
+.search-bar{
+    background-color: rgb(232, 229, 229);
+    height: 100vh;
+    
+}
+
+.search-bar input{
+    height: 8vh;
+    width: 40vw;
+   
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 400px;
+    background-color: transparent;
+    padding-left: 40px;
+}
+
+.order-list{
+   margin-left:530px;
+   gap: 15px;
+   font-family:Arial, Helvetica, sans-serif;
+   padding-top: 40px;
+   
+  
+   
+  
+}
+
+a:-webkit-any-link {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.search-bar button{
+position: absolute;
+top: 155px;
+left: 410px;
+background-color: transparent;
+border: white;
+
+
+}
+.search-engine{
+    margin-left: -100px;
+}
+
+.search-engine img{
+    height: 15vh;
+    width: 8vw;
+    border-radius: 100%;
+  
+}
+
+.recipe-button button{
+    margin-top: 500px;
+    margin-left: 150px;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 6vh;
+    width: 8vw;
+    border-radius: 15px;
+
+}
